@@ -1,0 +1,12 @@
+-- Using the Workbench we can also see the log files and the log options:
+-- Server->Server Logs
+
+-- As logs files we have three main categories: 
+-- 1) Error Logs: MySQL loggs the shutdown and the start of the server, all the
+--       errors, warnings, etc. Those are stored 'C:\ProgramData\MySQL\MySQL Server 8.0\Data\PCNAME.err'
+-- 2) Slow Query Logs: Logs all the queries that required a lot of time to be executed. We can see which
+--       is the maximum time a query can have before log in 'C:\ProgramData\MySQL\MySQL Server 8.0\Data\PCNAME-slow.err'
+--       in the file 'C:\ProgramData\MySQL\MySQL Server 8.0\my'
+--       (we can find a lot of key-prefferences for the server like sql_mode etc)
+-- 3) General Logs: Logs user connections and all the queries they are running. By default is deactivated because 
+--       it can get very fast very large and we would fill the entire disk with log files
