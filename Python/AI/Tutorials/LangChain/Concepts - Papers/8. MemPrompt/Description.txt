@@ -1,0 +1,2 @@
+MemPrompt maintains a memory of errors and user feedback, and uses them to
+prevent repetition of mistakes

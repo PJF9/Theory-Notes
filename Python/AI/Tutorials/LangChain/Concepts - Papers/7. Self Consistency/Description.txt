@@ -1,0 +1,3 @@
+Self Consistency is a decoding strategy that samples a diverse set of reasoning
+paths and then selects the most consistent answer. Is most effective when combined
+with Chain-of-thought prompting.

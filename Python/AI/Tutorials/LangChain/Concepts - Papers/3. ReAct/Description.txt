@@ -1,0 +1,3 @@
+ReAct is a prompting technique that combines Chain-of-Thought prompting
+with action plan generation. This induces the to model to think about
+what action to take, then take it.

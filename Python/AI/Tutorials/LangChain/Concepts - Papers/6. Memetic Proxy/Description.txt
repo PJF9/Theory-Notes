@@ -1,0 +1,3 @@
+Memetic Proxy is encouraging the LLM to respond in a certain way framing the discussion
+in a context that the model knows of and that will result in that type of response.
+For example, as a conversation between a student and a teacher.

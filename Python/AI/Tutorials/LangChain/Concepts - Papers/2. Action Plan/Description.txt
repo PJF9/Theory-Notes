@@ -1,0 +1,3 @@
+Action Plan Generation is a prompting technique that uses a language model to
+generate actions to take. The results of these actions can then be fed back into
+the language model to generate a subsequent action.
