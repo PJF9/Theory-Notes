@@ -1,0 +1,23 @@
+MainWidgets:
+
+# This is the file that will contain all the main widgets
+# The first line is the class that we want all the widgets to be placed (inside the main interface)
+# Note that the name must be the same as the App class without the App in the end.
+
+# Defining all the main widgets
+<MainWidgets>:
+    Button:
+        text: "Hallo There"
+        size: "400dp", "100dp"  # We use dp (density pixel) because we want our apps to work
+                                #   correctly also on phone or tablets.
+        pos: "200dp", "100dp"   # 40dp is the pixel density of a button on a phone
+    Button:
+        text: "Hallo There2"
+        size: "400dp", "100dp"
+        pos: "200dp", "400dp"
+        color: 0, 1, 0, 1      # The color (r, g, b, a) where rgb -> red/green/blue and a -> the visibility
+    Label:
+        text: "Hallo"
+        size: "200dp", "200dp"
+        pos: "200dp", "250dp"
+        color: 0, 0, 1, .6      # All those parameters need to go from 0 to 1

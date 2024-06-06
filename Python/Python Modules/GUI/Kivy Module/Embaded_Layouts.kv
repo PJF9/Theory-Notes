@@ -1,0 +1,28 @@
+Box_Layout:
+
+<Box_Layout>
+    orientation: "horizontal"
+    Label:
+        text: "Hallo"
+
+    BoxLayout:
+        orientation: "vertical"
+        spacing: "20dp" # Separates the buttons by 20 pixel density
+        Button:
+            text: "A"
+        Button:
+            text: "B"
+        Button:
+            text: "C"
+        Button:
+            text: "D"
+        # Create another box layout inside the current layout.
+        BoxLayout:
+            spacing: "1dp"
+            Button:
+                text: "0"
+            Button:
+                text: "1"
+
+    Label:
+        text: "Hallo"

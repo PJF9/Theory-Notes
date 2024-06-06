@@ -1,0 +1,25 @@
+BoxLayoutExample:
+
+# Whatever we need to place in the screen, we need first to define our main interface
+<BoxLayoutExample>:
+    orientation: "vertical"
+    # If we set orientation "horizontally" we use y, center_y, top with pos_hint
+    Button:
+        text: "Hallo"
+        size_hint: 0.5, 0.6 # Modifying the size of the button inside the layaout (.x is a persentage of x%)
+                            #   first width and then height, default is 1, 1
+        pos_hint: {"x": .25} # Changing the position of the button
+    Button:
+        text: "There"
+        size: "60dp", "60dp"
+        size_hint: None, None # This way we are choosing a fix size.
+        pos_hint: {"right": 1}
+    Button:
+        text: "Sir"
+        size_hint: None, None # The same code that is written above
+        width: "300dp" # We can also 'size_hint: .3, None' and width: "40dp"
+        height: "200dp"
+        pos_hint: {"center_x": 0.5} # centering the button
+    Label:
+        text: "Example"
+        color: 0, 1, 1, 1
